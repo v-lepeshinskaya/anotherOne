@@ -1,0 +1,15 @@
+package testCases;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class testBrowsers {
+
+	public static void main(String[] args) {
+		
+		
+		System.setProperty("webdriver.com.driver", "C:\\Users\\v.lepeshinskaya\\Downloads\\chromedriver-win64\\chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+
+	}
+
+}
