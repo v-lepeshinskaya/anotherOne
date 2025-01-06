@@ -3,8 +3,12 @@
   <groupId>com.w2a</groupId>
   <artifactId>Selenium4Examples</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <dependencies>
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+    </properties>
+
+    <dependencies>
   
   <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
